@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+} 
+
+
+/* body de home */
+.grid-container {
+  width: 90%;
+  margin: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /*Agregado*/
+  grid-template-rows: repeat(5, auto); /*Agregado*/
+
+  grid-template-areas:
+    "header header header"
+    "prod1 prod2 sh"
+    "ofertas prod3 sh"
+    "icono1 icono2 icono3"
+    "footer footer footer";
+}
+
+.grid-container > div,
+.grid-container .header,
+.grid-container,
+.grid-container .footer {
+  /* background-color: #4949f8ce; */
+  padding: 20px;
+  border-radius: 4px;
+} /*Agregado*/
+
+/* .header__menú { */
+  /* grid-area: header; */ /*Agregado*/
+ /*  float: left; */ /*Agregado*/
+ /*  justify-content: flex-end; */ /*Agregado*/
+ /*  text-align: center;  *//*Agregado*/
+ /*  background-color: white; */
+  
+/* } */
+
+.main__productos1 {
+  grid-area: prod1;
+  display: flex;
+  text-align: center;
+}
+
+.main__productos2 {
+  grid-area: prod2;
+  display: flex;
+  text-align: center;
+}
+
+.main__productos3 {
+  grid-area: prod3;
+  display: flex;
+  text-align: center;
+}
+
+.ofertas {
+  grid-area: ofertas;
+  text-align: center;
+}
+
+.sh {
+  grid-area: sh;
+  display: flex;
+  text-align: center;
+
+  background-color: burlywood;
+}
+.icono1, .icono2, .icono3  {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  
+}
+.icono1 {
+  grid-area: icono1;
+  
+}
+
+.icono2 {
+  grid-area: icono2;
+  
+}
+
+.icono3 {
+  grid-area: icono3;
+  
+}
+.body_home{
+  color: black;
+  background-image: url(../img\ home/fondo-horizontan-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.icono1 img, .icono2 img, .icono3 img {
+  width: 120px;
+  height: auto;
+}
+ 
+ /*  main registro */
+.main__form {
+  height: 100%;
+}
+
+.main__form__nombre {
+  margin: 20px 17px;
+  padding: 0;
+}
+.main__form__apellido {
+  margin-top: 20px;
+  padding: 0;
+  margin-left: 17px;
+}
+.main__form__edad {
+  margin-top: 20px;
+  padding: 0;
+  margin-left: 17px;
+}
+.main__form__sexo {
+  margin-left: 17px;
+  padding: 0;
+}
+.main__form__email__contraseña {
+  margin-top: 15px;
+  margin-left: 17px;
+}
+.main__form__pais {
+  margin-left: 17px;
+  padding: 0;
+}
+.main__form__botones {
+  margin-top: 20px;
+  padding: 0;
+}
+
+/*  BODY CARRITO  */
+
+#main__carrito {
+  color: black;
+  background-image: url(../img\ home/fondo-horizontan-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 600px;
+}
+.main__carrito__producto__precío {
+  display: flex;
+  justify-content: space-between;
+}
+.main__carrito__vacío {
+  text-align: center;
+  color: black;
+}
+.main__carrito__vacío a:hover strong {
+  background-color: tomato;
+  color: black;
+}
