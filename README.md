@@ -1,3 +1,3 @@
 # primer repositorio 
 ### franco pajello
-desarrollo wueb 
+desarrollo web 
