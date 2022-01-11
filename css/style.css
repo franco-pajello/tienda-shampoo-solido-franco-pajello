@@ -42,7 +42,15 @@
  /*  background-color: white; */
   
 /* } */
-
+.main__productos1:hover img,
+ .main__productos2:hover img,
+ .main__productos3:hover img,
+ .ofertas:hover img,
+ .sh:hover img{
+ height: 102%;
+ width: 110%;
+ scale: (3) 
+} 
 .main__productos1 {
   grid-area: prod1;
   display: flex;
@@ -65,13 +73,19 @@
   grid-area: ofertas;
   text-align: center;
 }
-
+.ofertas img{
+  width: 100%;
+  height: auto;
+}
 .sh {
   grid-area: sh;
-  display: flex;
   text-align: center;
-
-  background-color: burlywood;
+  width: 100%;
+  height: auto;
+    }
+.sh img{
+  width: 100%;
+  height: 100%;
 }
 .icono1, .icono2, .icono3  {
   display: flex;
