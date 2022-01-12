@@ -43,50 +43,7 @@ width: 30%;
   margin: 0;
   padding: 0;
   width: auto;
-  
-
-  
- 
   }
-
-   
-    /* .header__menú__lupa  {
-      list-style: none;
-      padding: 5px 5px;
-      margin-top: 50px;
-    
-    }
-    .header__menú__lupa a {
-
-      border: 2px solid lightblue;
-      padding: 5px 5px;
-      margin: 5px 5px;
-     list-style: none;
-    }
-  .header__menú__menú{
-        list-style: none;
-        padding: 5px 5px;
-    margin-top: 15px;
-
-  }
-  .header__menú__menú ul{
-      border: 2px solid white;
-      padding: 5px 5px;
-      margin: 5px;
-      list-style: none;
-      display: flex ;
-      
-  }
-  .header__menú__menú ul li a:hover{
-    background-color: cadetblue;
-  }
-
-   .header__menú__menú li  img{
-     width: 70px;
-     height: auto;
-     margin: 5px 5px;
-    
-   } */
    .footer{
      grid-area: footer;
      display: flex;  
@@ -98,9 +55,6 @@ width: 30%;
     margin-top: 10px;
     border: ridge rgb(170, 235, 242);
    }
-   
-  
-  
     .footer__ubicacion{
        text-align: center;
     
