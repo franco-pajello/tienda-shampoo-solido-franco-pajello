@@ -13,6 +13,21 @@
   justify-content: space-between;
   justify-items: center;
 }
+.nav-item11 img{
+  width: 135%;
+  height: auto;
+  margin: 2% 2%;
+}
+.nav-item22 img{
+  width: 135%;
+  height: auto;
+  margin: 2% 2%;
+}
+.nav-item33 img{
+  width: 135%;
+  height: auto;
+  margin: 2% 2%;
+}
  /*      .navbar {
         margin-top: 17%;
         flex-direction: row;
@@ -22,7 +37,7 @@ width: 30%;
 
         }
 .color-menu{
-  background-color: rgb(245, 182, 240);
+  background-color:transparent;
   border-radius: 10px;
   height: 100%;
   
