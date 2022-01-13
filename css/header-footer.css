@@ -12,6 +12,8 @@
   display: flex;  
   justify-content: space-between;
   justify-items: center;
+  background-color: rgb(190, 255, 246);
+  height: 48%;
 }
 .nav-item11 img{
   width: 135%;
@@ -24,6 +26,11 @@
   margin: 2% 2%;
 }
 .nav-item33 img{
+  width: 135%;
+  height: auto;
+  margin: 2% 2%;
+}
+.nav-item44 img{
   width: 135%;
   height: auto;
   margin: 2% 2%;
@@ -99,9 +106,23 @@ width: 30%;
     } 
     
  } 
-  @media (min-width:220) and (max-width:992){
+ 
+ @media (min-width:220px) and (max-width:992px){
+  .nav{
+  display: none;
+  background-color: transparent;
+  width: auto;
+  height: 2%;
+  
+
+}
+} 
+
+  @media (min-width:220px) and (max-width:992px){
     #navbarNavDropdown{
     display: none;
+   
+
   }
 } 
 
@@ -147,6 +168,7 @@ width: 30%;
       .header__logo img{
         height: auto;
         width: 60%;
+        
         
       }
 

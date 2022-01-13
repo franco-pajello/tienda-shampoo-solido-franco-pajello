@@ -51,7 +51,6 @@ h3, a{
   color: black;
 
 } 
-
 .carrucel{
   grid-area: carrucel;
 } 
@@ -124,14 +123,33 @@ h3, a{
   height: auto;
 } 
  /*  main registro */
-.main__form {
+ .grid-container-form {
+  width: 90%;
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto); 
+
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "hambur hambur hambur"
+     "main main main"
+    
+    "footer footer footer";
+}
+#main-form{
+  grid-area: main;
   height: 100%;
 }
 
 .main__form__nombre {
   margin: 20px 17px;
   padding: 0;
+  border: tomato;
+  border-radius: 10% ;
 }
+
 .main__form__apellido {
   margin-top: 20px;
   padding: 0;
@@ -157,7 +175,7 @@ h3, a{
 .main__form__botones {
   margin-top: 20px;
   padding: 0;
-}
+} */
 
 /*  BODY CARRITO  */
 
