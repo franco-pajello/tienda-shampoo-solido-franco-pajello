@@ -19,6 +19,8 @@
 
   grid-template-areas:
     "header header header"
+    "nav nav nav"
+    "hambur hambur hambur"
     "carrucel carrucel carrucel"
     "prod1 prod2 sh"
     "ofertas prod3 sh"
@@ -53,6 +55,11 @@ h3, a{
 .carrucel{
   grid-area: carrucel;
 } 
+.main__productos1 img, .main__productos2, 
+.main__productos3{
+  width: 100%;
+  height: auto;
+}
 .main__productos1 {
   grid-area: prod1;
   display: flex;
@@ -175,3 +182,8 @@ h3, a{
   background-color: tomato;
   color: black;
 }
+/* @media (max-width:991px){
+  .body_home{
+    flex-direction: column;
+  }
+} */
