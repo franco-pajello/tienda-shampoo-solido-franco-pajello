@@ -6,12 +6,13 @@
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
+    box-sizing: border-box;
 } 
 
 
 /* body de home */
 .grid-container {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-gap: 3%;
   grid-template-columns: repeat(3, 1fr);
