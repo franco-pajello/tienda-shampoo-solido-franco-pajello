@@ -87,6 +87,7 @@ width: 30%;
     width: 100%;
     height: auto;
     margin-top: 10px;
+    background-color: rgb(201, 201, 201);
   
    }
     .footer__ubicacion{
@@ -128,38 +129,19 @@ width: 30%;
   @media (min-width:992px)  {
    .dropdown{
     display: none;
-    grid-area: hambur;
-    
-    } 
-    
+    grid-area: hambur; 
+    }  
  } 
-
   @media (min-width:220px) and (max-width:992px){
     #navbarNavDropdown{
     display: none;
-   
-
   }
 } 
-
   @media (min-width:220px) and (max-width:992px){
-
    .color-menu{
-   background-color: transparent;
-   
+   background-color: transparent; 
    }
   }  
 
-     @media (min-width:200px) and (max-width:660px){
-         .icono1 img, .icono2, .icono3{
-           display: none;
-         }
-       }
-    
-      @media (min-width:200px) and (max-width:660px){
-     .body_home,  .grid-container{ 
-    
-         flex-direction: column;
-         display: block;
-        }
-     }  
+     
+     
