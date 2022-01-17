@@ -11,6 +11,10 @@
 
 
 /* body de home */
+.body_home{
+  width: 100%;
+  background-color: white;
+}
 .grid-container {
   width: 100%;
   display: grid;
@@ -20,13 +24,14 @@
 
   grid-template-areas:
     "header header header"
-    "nav nav nav"
+    
     "hambur hambur hambur"
     "carrucel carrucel carrucel"
     "prod1 prod2 sh"
     "ofertas prod3 sh"
     "icono1 icono2 icono3"
-    "footer footer footer";
+    "footer footer footer"
+    "tarjetas tarjetas tarjetas";
 }
 
 .grid-container > div,
@@ -45,15 +50,13 @@
  width: 110%;
  scale: (3) 
 }  
-h3 a{
+  h3, a{
   color: black;
-}
-h3, a{
-  color: black;
-
+  text-decoration: none;
 } 
 .carrucel{
   grid-area: carrucel;
+  width: 100%;
 } 
 .main__productos1 img, .main__productos2, 
 .main__productos3{
@@ -81,6 +84,9 @@ h3, a{
   grid-area: ofertas;
   text-align: center;
  
+}
+.ofertas a{
+  text-decoration: none;
 }
 
 .ofertas img{
