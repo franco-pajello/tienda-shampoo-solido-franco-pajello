@@ -126,6 +126,27 @@ width: 30%;
      justify-content: space-a;
 
    }
+   /* form */
+   .nav-item111 img{
+    width: 40%;
+    height: auto;
+    margin: 2% 2%;
+  }
+  .nav-item222 img{
+    width: 40%;
+    height: auto;
+    margin: 2% 2%;
+  }
+  .nav-item333 img{
+    width: 40%;
+    height: auto;
+    margin: 2% 2%;
+  }
+  .nav-item444 img{
+    width: 40%;
+    height: auto;
+    margin: 2% 2%;
+  }
   @media (min-width:992px)  {
    .dropdown{
     display: none;

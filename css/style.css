@@ -147,31 +147,31 @@ height:50%;
 } 
  /* main form */
 
- .grid-container-form {
+ #main-form {
   width: 90%;
   display: grid;
   grid-gap: 3%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, auto); 
+  grid-template-columns: ( 1fr);
+  grid-template-rows: (1); 
 
   grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    "hambur hambur hambur"
-     "main main main"
-    
-    "footer footer footer";
-}
+    "main"
+    "main"
+    "main"
+  
+     ;
+} 
 #main-form{
   grid-area: main;
-  height: 100%;
+  width: 100%;
+  height:auto;
+
 }
 
 .main__form__nombre {
   margin: 20px 17px;
   padding: 0;
-  border: tomato;
-  border-radius: 10% ;
+ 
 }
 
 .main__form__apellido {
@@ -199,7 +199,7 @@ height:50%;
 .main__form__botones {
   margin-top: 20px;
   padding: 0;
-} */
+} 
 
 /*  BODY CARRITO  */
 
