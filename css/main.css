@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* header ofertas */
+.header__menú {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__menú .header__logo img {
+  text-align: right;
+}
+
+.header__menú .navbar {
+  text-align: left;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: black;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  background-color: #bdbdbd;
+}
+
+.footer .footer__ubicacion {
+  text-align: center;
+}
+
+.footer .footer__ubicacion a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer .footer__nosotros {
+  width: 33%;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  height: 20px;
+}
+
+.registrarme {
+  width: 33%;
+}
+
+.registrarme a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .tarjetas{
+    display: flex;
+    width: 100%;
+    height: auto;
+   & .tarjetas img{
+        width: 80%;
+        height: auto;
+        align-items: center;
+        justify-content: flex-start;
+      }  
+}
+ */
+/* ofertas */
+h1 {
+  color: tomato;
+}
+/*# sourceMappingURL=main.css.map */

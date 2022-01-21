@@ -4,85 +4,282 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pelo normal</title>
-    <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/header-footer.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap" rel="stylesheet">
-</head>
-<body id="body__shNormal">
-    <header id="header">
-
-            <!-- menú de navegación -->
-            <nav class="header__menú">
-                
-                <div class="header__menú__lupa">
-
-                    <a href="#">
-                        <input type="search" placeholder="Buscar">
-                    </a>
-                </div>    
-            </nav>       
-                
-                        <!-- logo con dirección a home -->
-        <div class="header__logo">
-
-            <a href="../index.html">
-                
-               <img src="../img home/logo.ico" alt="logo">
-            </a>
-        </div>
-        <!-- menú de nav -->
-        <nav>
-            <div class="header__menú__menú">
-
-                <ul> 
-                    
-                    <li class="registrarme"><a href="../resgistrarme_compras/por-mayor.html"><img src="../img icon/email-icon.ico" alt="icon-email"></a></li>
-                    <li class="insta"><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="../img icon/insta-icon.ico" alt="icon-insta"></a></li>
-                    <li class="wsp"><a href="https://web.whatsapp.com/" target="_blank"><img src="../img icon/wsp-icon.ico" alt="icon-wsp"></a></li>
-                    <li class="car"><a href="../resgistrarme_compras/mis-compras.html" ><img src="../img icon/carrito-icon.ico" alt="icon-carrito"></li>
-                        <li class="nosotros"><a href="#pie">Nosotros</a></li>
-                    </ul>
-                    
-                </div> 
-             
-            </nav>
-                
-     </header>
-    <!-- todos los productos con su descripción y precio -->   
-    <div>
-        <h1>Shampoo sólido para pelo normal</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid saepe doloribus
-        </p>
-    </div>
-</body>
-
-    <footer id="pie" style="margin-top: 100px;">
-
-        <div class="footer__ubicacion">
-
-            <h4>Nuestro local</h4>
+    <title>ofertas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+<!-- <link rel="stylesheet" href="../css/header-footer.css"> -->
+<body class="body-ofertas">
+    
+    <div class="container d-grid">
+        <div class="row">
             
-            <iframe class="footer__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.0018039241704!2d-58.44344033480833!3d-34.553509712350284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43596c42077%3A0xc9aa6489146bcb2e!2sEcheverr%C3%ADa%20955%2C%20C1428%20DQG%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1638165158036!5m2!1ses-419!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-       <div class="footer__nosotros"> 
+            <header class="header__menú ">
+              
+               <!-- logo -->
+               <div class="header__logo col-6 ">
+                <a href="../index.html">
+                    <img src="../img home/logo.jpg" alt="logo">
+                </a>
+            </div>
 
-           <h4>Nosotros</h4>
-           <h6>
+              <!-- menu de nav 1 -->
+              <nav class="navbar navbar-expand-lg navbar-light bg-light  col-6">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown link
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+            </header>
+            <!-- todos los productos con su descripción y precio -->   
+ <section class="grid-bootstrap text-center   ">
+    
+                <!-- fila 1 -->
 
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eius sequi molestiae perferendis tempore in cum facere numquam totam hic! Eos recusandae voluptas consectetur nulla quibusdam architecto assumenda pariatur maiores.
-            </h6>
-        
+  <div class="grid-bootstrap-fila-1 d-flex my-2 ">
+
+    <div class="grid-bootstrap-oferta1 col-lg-4" >
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+          </div>
     </div>
+    <div class="grid-bootstrap-oferta2 col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+          
+          </div>
+    </div>
+    <div class="grid-bootstrap-oferta3 col-lg-4">
         
-    </footer>
-</html>
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PRODUCTO X</h5>
+                  <p class="card-text">$500</p>
+                  <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+                </div>
+              
+          </div>
+    </div>
+</div>
+<!-- fila 2 -->
+
+<div class="grid-bootstrap-fila-2 d-flex  ">
+    
+    <div class="grid-bootstrap-oferta4 col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+          
+          </div>
+    </div>
+    
+    <div class="grid-bootstrap-oferta5 col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+          
+          </div>
+    </div>
+    <div class="grid-bootstrap-oferta6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+          </div>
+    </div>
+</div>
+
+<!-- fila 3 -->
+<div class="grid-bootstrap-fila-3 d-flex  mt-2">
+
+    <div class="grid-bootstrap-oferta7 col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+     </div>
+ </div>
+    
+    <div class="grid-bootstrap-oferta8 col-lg-4  ">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+     </div>
+    </div>
+    
+    <div class="grid-bootstrap-oferta9 col-lg-4  ">
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PRODUCTO X</h5>
+              <p class="card-text ">$500</p>
+              <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+            </div>
+     </div>
+    </div>
+</div>
+    <!-- fila 4 -->
+    <div class="grid-bootstrap-fila-4 d-flex my-2" >
+
+        <div class="grid-bootstrap-oferta10 col-lg-4 ">
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">PRODUCTO X</h5>
+                  <p class="card-text ">$500</p>
+                  <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+                </div>
+         </div>
+        </div>
+        <div class="grid-bootstrap-oferta11 col-lg-4 ">
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">PRODUCTO X</h5>
+                  <p class="card-text">$500</p>
+                  <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+                </div>
+         </div>
+        </div>
+        <div class="grid-bootstrap-oferta12 col-lg-4 " >
+            <div class="card" style="width: 18rem;">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PRODUCTO X</h5>
+                  <p class="card-text">$500</p>
+                  <a href="../resgistrarme_compras/mis-compras.html " class="btn btn-primary">SUMAR AL CARRITO</a>
+                </div>
+         </div>
+        </div>
+    </div>
+    </section>
+<!--  footer -->
+
+                <footer class="footer" id="pie" >
+                <table  class=" footer "> 
+                    <thead class="tabla-head"> 
+                        
+
+                            <td class="footer__nosotros"><h4>Nosotros</h4></td>
+                            <td class="registrarme"><a href="./resgistrarme_compras/por-mayor.html"><H4>Registrarme</H4> </a></td>
+                            <td> <h4>Nuestro local</h4></td>
+                       
+                        
+                        
+                    </thead>
+                    <tbody class="tabla-body footer__nosotros">
+                     
+                            <td class="footer__nosotros"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe facere quam veniam eligendi autem. Quaerat.</td>
+                            <td class="footer-p-frecuentes">preguntas frecuentes</td>
+                            <td class="footer__ubicacion"> <a href="https://www.google.com.ar/maps/place/Gurruchaga+2405,+C1425FEK+CABA/@-34.5832733,-58.4231544,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb583c936408d:0xa76d5d63fcf86376!8m2!3d-34.5832733!4d-58.4209657 " target="_blank"> <h5>Gurruchaga 2405</h5></a>
+                                </td>
+                    
+                    </tbody>
+                    <tfoot class="tabla-foot">
+                        
+                            <td>Pie de la tabla.</td>
+                            <td>instagram</td>
+                            <td>Pie de la tabla.</td>
+                      
+                    </tfoot>
+                </table>
+            
+                   </footer> 
+                <!--  tarjetas -->
+
+      <!--               <div class="tarjetas">
+                        <div class="tarjeta1">
+                            <img src="../imag-tarjetas/amex.png" alt="tarjeta amex">
+                        </div>
+                        <div class="tarjeta2">
+                            <img src="../imag-tarjetas/argencard.png" alt="tarjeta agencard">
+                        </div>
+                        <div class="tarjeta3">
+                            <img src="../imag-tarjetas/banelco.png" alt="banelco">
+                        </div>
+                        <div class="tarjeta4"><img src="../imag-tarjetas/cabal.png" alt="cabal"></div>
+                        <div class="tarjeta5"> 
+                            <img src="../imag-tarjetas/cencosud.png" alt="cencosud">
+                        </div>
+                        <div class="tarjeta6">
+                            <img src="../imag-tarjetas/diners.png" alt="diners">
+                        </div>
+                        <div class="tarjeta7"> 
+                            <img src="../imag-tarjetas/mastercard.png" alt="master card">
+                        </div>
+                        <div class="tarjeta8"><img src="../imag-tarjetas/mercadopago.png" alt="mercado pago"></div>
+                        <div class="tarjeta9"> 
+                            <img src="../imag-tarjetas/pagofacil.png" alt="pago facil">
+                        </div>
+                        <div class="tarjeta10">
+                            <img src="../imag-tarjetas/rapipago.png" alt="rapipago">
+
+                        </div>
+                        <div class="tarjeta11">
+                            <img src="../imag-tarjetas/tarjeta-naranja.png" alt="naranja">
+                        </div>
+                     
+                      </div>
+                
+
+           -->
+        </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+    </html>
