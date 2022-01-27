@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Registrate para realizar compras por mayor, recibir actualizaciones de ofertas o realizar consultas">
+    <meta name="keywords" content=" compra por mayor, registro, consultas ">
     <title>Registro</title>
+
     <link rel="shortcut icon" href="../img home/logo-web.png">
      <link rel="stylesheet" href="../css/style.css">
      <link rel="stylesheet" href="../css/header-footer.css">
+     <link rel="stylesheet" href="../css/main.css">
      
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
@@ -98,37 +102,7 @@
                         </div>
                     </div>
                 </nav>    
-                
-                <!-- menú de navegación -->
-                <!--      <nav class="header__menú">
-                    <div class="header__menú__lupa ">
-                        
-                        <a href="#">
-                            <input type="search" placeholder="Buscar">
-                        </a>
-                    </div>
-                    
-                </nav> -->
-                
-                <!-- menú de navegacion -->    
-                <!--   <nav>
-                    <div class="header__menú__menú">
-                        
-                        <ul>
-                            
-                            <li class="registrarme"><a href="./por-mayor.html"><img src="../img icon/email-icon.ico" alt="icon-icon"></a></li>
-                            <li class="insta"><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="../img icon/insta-icon.ico" alt="icon_insta"></a></li>
-                            <li class="wsp"><a href="https://web.whatsapp.com/" target="_blank"><img src="../img icon/wsp-icon.ico" alt="icon-wsp"></a></li>
-                            <li class="car"><a href="./mis-compras.html" ><img src="../img icon/carrito-icon.ico" alt="icon-carrito"></li>
-                                <li class="nosotros"><a href="#pie">Nosotros</a></li>
-                            </ul>
-                            
-                        </div>
-                    </nav>
-                    
-                -->
-                
-                
+             
             </header> 
             <!-- formulario para compra mayorista -->         
             
@@ -141,19 +115,19 @@
                         <div class="main__form__nombre">
                             
                             <label for="name" >Nombre</label>
-                            <input type ="text" id="name" placeholder="Ingrese su nombre">
+                            <input class="main__form__ingrese__nombre"  type ="text" id="name" placeholder="Ingrese su nombre" >
                         </div>
                         <div class="main__form__apellido">
                             
                             <label for="apellido" class=>Apellido</label>
-                            <input type="text" id="apellido" placeholder="Ingrese su apellido">
+                            <input class="main__form__ingrese__apellido" type="text" id="apellido" placeholder="Ingrese su apellido">
                         </div>
                         
                         
                         <div class="main__form__edad">
                             
                             <label for="number">Edad</label>
-                            <input type="number" id="number">
+                            <input class="main__form__edad__numero" type="number" id="number" placeholder="Ingrese su edad">
                         </div>
                         
                         <div class="main__form__sexo">
@@ -167,16 +141,16 @@
                         
                         <div class="main__form__email__contraseña"> 
                             
-                            <label for="email" class="main__form__email">Email</label>
-                            <input type="email" id="email" placeholder="correo electrónico">
+                            <label for="email">Email</label>
+                            <input class="main__form__email" type="email" id="email" placeholder="correo electrónico">
                             
-                            <label for="pass" class="main__form__contraseña">Contraseña</label>
-                            <input type="password" id="pass" placeholder="contraseña">
+                            <label for="pass">Contraseña</label>
+                            <input class="main__form__contraseña" type="password" id="pass" placeholder="contraseña">
                         </div>
-                        <div class="main__form__pais">
+                        <div >
                             
                             <p class="main__form__país"><h4>Seleccionar país</h4></p>
-                            <select name="país" id="país">
+                            <select class="main__form__pais" name="país" id="país">
                                 
                                 <option value="1">Argentina</option>
                                 <option value="2">Brasil</option>
@@ -189,25 +163,41 @@
                         <!-- botones -->
                         <div class="main__form__botones">
                             
-                            <input type="submit">
-                            <input type="reset">
-                            <input type="button" value="iniciar sesion">
-                            <input type="button" value="js"> 
+                            <input class="main__form__btn1" type="submit">
+                            <input class="main__form__btn2"  type="reset">
+                            <input class="main__form__btn3"  type="button" value="iniciar sesion">
+                            <input class="main__form__btn4" type="button" value="js"> 
                         </div>
                         
                     </fieldset>
                 </form> 
                 
             </main>
+            <!-- iconos -->
+            <section class="iconos">
+                     <div class="icono-sin-crueldad">
+                        <img src="../img icon/cruelty-free.png" alt="libre de crueldad">
+                    </div>
+                    <div class="icono-vegano">
+                        <img src="../img icon/vegano-N22.png" alt="vegano">
+                    </div>
+                    <div class="icono-sin-sulfatos">
+                        <img src="../img icon/sin-sulfatos-N22.png" alt="sin sulfatos">
+                    </div>
+                    <div class="icono-sin-parabenos">
+                        <img src="../img icon/sin-parabenos-N222.png" alt="si paravenos">
+                    </div>
+                    
+            </section>
             
-            <footer class="footer" id="pie" >
+            <footer class="footer " id="pie" >
                 <table  class=" footer "> 
                     <thead class="tabla-head"> 
                         
                         
-                        <td class="footer__nosotros"><h4>Nosotros</h4></td>
-                        <td class="registrarme"><a href="../resgistrarme_compras/por-mayor.html"><H4>Registrarme</H4> </a></td>
-                        <td> <h4>Nuestro local</h4></td>
+                        <td class="footer__nosotros"><strong>Nosotros</strong></td>
+                        <td class="registrarme"><a href="../resgistrarme_compras/por-mayor.html"><strong>Registrarme</strong> </a></td>
+                        <td> <strong>Nuestro local</strong></td>
                         
                         
                         
@@ -215,16 +205,16 @@
                     <tbody class="tabla-body footer__nosotros">
                         
                         <td class="footer__nosotros"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe facere quam veniam eligendi autem. Quaerat.</td>
-                        <td class="footer-p-frecuentes">preguntas frecuentes</td>
-                        <td class="footer__ubicacion"> <a href="https://www.google.com.ar/maps/place/Gurruchaga+2405,+C1425FEK+CABA/@-34.5832733,-58.4231544,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb583c936408d:0xa76d5d63fcf86376!8m2!3d-34.5832733!4d-58.4209657 " target="_blank"> <h5>Gurruchaga 2405</h5></a>
+                        <td class="footer-p-frecuentes"> <strong>Preguntas frecuentes</strong></td>
+                        <td class="footer__ubicacion"> <a href="https://www.google.com.ar/maps/place/Gurruchaga+2405,+C1425FEK+CABA/@-34.5832733,-58.4231544,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb583c936408d:0xa76d5d63fcf86376!8m2!3d-34.5832733!4d-58.4209657 " target="_blank"> <h6>Gurruchaga 2405</h6></a>
                         </td>
                         
                     </tbody>
                     <tfoot class="tabla-foot">
                         
-                        <td>Pie de la tabla.</td>
-                        <td>instagram</td>
-                        <td>Pie de la tabla.</td>
+                        <td><STrong>Pie de la tabla.</STrong></td>
+                        <td> <strong>Instagram</strong> </td>
+                        <td><STRong>Pie de la tabla.</STRong></td>
                         
                     </tfoot>
                 </table>

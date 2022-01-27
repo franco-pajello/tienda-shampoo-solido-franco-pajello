@@ -4,3 +4,85 @@
 h1{
     color: tomato;
 }
+@mixin btn ($colBorde, $colHover ){
+    display: inline-block;
+    padding: 0.3%;
+    text-decoration: none;
+    color: black;
+    background-color:$colHover;
+    border: $colBorde 2px solid;
+}
+.main__form__botones{
+
+    .main__form__btn1{
+        @include btn (green, transparent)
+        
+    }
+    .main__form__btn1:hover{
+        @include btn (black, rgb(169, 205, 218))
+    }
+    .main__form__btn2{
+        @include btn (blue, transparent )
+    }
+    .main__form__btn2:hover{
+        @include btn (black, rgb(232, 116, 116))
+    }
+    .main__form__btn3{
+        @include btn ( rgb(232, 116, 116), transparent)
+    }
+    .main__form__btn3:hover{
+        @include btn (black, rgb(235, 187, 99))
+    }
+}
+#main-form{
+border: rgb(169, 169, 169) 0.5px solid;
+background-color: rgb(209, 248, 248);
+    .main__form__ingrese__nombre{
+        border: black solid 0.5px;
+        cursor: text;
+        background-color:transparent;
+        padding:auto;
+        color: gray;
+        text-align: center;
+        font-size: 84%;
+        
+    }
+    .main__form__ingrese__apellido{
+        @extend .main__form__ingrese__nombre;
+    }
+    .main__form__edad__numero{
+        @extend .main__form__ingrese__nombre;
+    }
+    .main__form__email{
+        @extend .main__form__ingrese__nombre;
+    }
+    .main__form__contraseña{
+        @extend .main__form__ingrese__nombre;
+    }
+    .main__form__pais{
+        @extend .main__form__ingrese__nombre;
+    }
+}
+ $iconos-form:(
+    vegano: lightgreen,
+    sin-sulfatos: lightgreen,
+    sin-parabenos: lightgreen,
+    sin-crueldad:  lightgreen
+
+ );
+ .iconos{
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     
+     @each $nombre, $valor in $iconos-form {
+         .icono-#{$nombre}{
+             border: $valor solid 0.5px;
+             
+            }
+            .icono-#{$nombre} img{
+                width: 50%;
+                height: auto;
+            }
+        }
+    }

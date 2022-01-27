@@ -70,4 +70,119 @@
 h1 {
   color: tomato;
 }
+
+.main__form__botones .main__form__btn1 {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: green 2px solid;
+}
+
+.main__form__botones .main__form__btn1:hover {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: #a9cdda;
+  border: black 2px solid;
+}
+
+.main__form__botones .main__form__btn2 {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: blue 2px solid;
+}
+
+.main__form__botones .main__form__btn2:hover {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: #e87474;
+  border: black 2px solid;
+}
+
+.main__form__botones .main__form__btn3 {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: #e87474 2px solid;
+}
+
+.main__form__botones .main__form__btn3:hover {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: #ebbb63;
+  border: black 2px solid;
+}
+
+#main-form {
+  border: darkgray 0.5px solid;
+  background-color: #d1f8f8;
+}
+
+#main-form .main__form__ingrese__nombre, #main-form .main__form__ingrese__apellido, #main-form .main__form__edad__numero, #main-form .main__form__email, #main-form .main__form__contraseña, #main-form .main__form__pais {
+  border: black solid 0.5px;
+  cursor: text;
+  background-color: transparent;
+  padding: auto;
+  color: gray;
+  text-align: center;
+  font-size: 84%;
+}
+
+.iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.iconos .icono-vegano {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-vegano img {
+  width: 50%;
+  height: auto;
+}
+
+.iconos .icono-sin-sulfatos {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-sin-sulfatos img {
+  width: 50%;
+  height: auto;
+}
+
+.iconos .icono-sin-parabenos {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-sin-parabenos img {
+  width: 50%;
+  height: auto;
+}
+
+.iconos .icono-sin-crueldad {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-sin-crueldad img {
+  width: 50%;
+  height: auto;
+}
 /*# sourceMappingURL=main.css.map */

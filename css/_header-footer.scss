@@ -1,4 +1,5 @@
 /* header ofertas */
+@import "variables";
 .header__menú{
     display: flex;
      & .header__logo img{
@@ -20,7 +21,7 @@
    width: 100%;
    height: auto;
    margin-top: 10px;
-   background-color: $ColorFooter;
+   background-color: $colorFooter;
   & .footer__ubicacion{
     text-align: center;
     
